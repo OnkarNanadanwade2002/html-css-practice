@@ -1,0 +1,45 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(back.jpg);
+    background-size: cover;
+    background-color: blue;
+}
+
+.box
+{
+    width: 10;
+    padding: 20;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0,0,0,0,4);
+    text-align: center;
+}
+.box h1
+{
+    color: yellowgreen;
+    text-transform: uppercase;
+    font-weight: 1000;
+    
+}
+.box input[text="text"]:focus,.box input[text="number"]:focus
+{
+    border: 20px;
+    text-transform: uppercase;
+    background: black;
+    display: white;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid rgb(17, 17, 17);
+    padding: 200px 10px;
+    width: 220px;
+    outline: yellow,20px;
+    color: white,50px;
+    border-radius: 20px;
+    transition: 0.25px;
+
+}

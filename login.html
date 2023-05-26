@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <style>
+        *
+        {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        body
+        {
+            text-transform: uppercase;
+            background-color: rgb(69, 71, 71);
+            color: azure;
+        }
+        h1{
+            text-align: center;
+            color: yellow;
+            border-bottom: 2px solid rgb(236, 65, 65);
+            width: 3cm;
+            position: relative;
+            left: 35%;
+        }
+        .form
+        {
+            position: relative;
+            left: 0%;
+            margin-top: 20px;
+            margin-left: 25%;
+            border: 4px dotted orange;
+            height: 8cm;
+            width: 8cm;
+            text-align: center;
+            padding: 10px;
+        }
+       .form h4
+        {
+            position: absolute;
+            /* top: 10px;*/
+            left: 0px;
+        }
+        .form input
+        {
+            background-color: transparent;
+            text-transform: uppercase;
+            border: none;
+            color: yellow;
+            height: 25px;
+            width: 80px;
+            border-bottom: 2px solid whitesmoke;
+            margin-left: 0px;
+            position: relative;
+            left: 30%;
+        }
+        .btn
+        {
+            background-color: transparent;
+            color: red;
+            text-transform: ;
+            border: 2px solid black;
+            margin: 3px;
+            color: aquamarine;
+            padding: 3px;
+            text-align: center;
+            display: flex;
+            float:right;
+            border-radius: 4px ;
+            position: absolute;
+        }
+        #btntwo
+        {
+            left: 50%;
+        }
+        .sub
+        {
+            position: absolute;
+            top: 45%;
+            left: 35%;
+            height: 30px;
+            width: 60%;
+            background-color: orchid;
+            border: 2px solid black;
+            border-radius: 8px;
+            color: yellow;
+            text-transform: uppercase;
+            font-weight: 300;
+        }
+    </style>
+</head>
+<body>
+    <div class="login">
+        <h1>login</h1>
+        <div class="form">
+            <div class="id"><h4>user id :</h4> <input type="number" placeholder="user id"></div>
+            <div class="name"><h4> user name :</h4> <input type="text" placeholder=" user name"></div>
+            <div class="name"><h4>password :</h4> <input type="password" placeholder="password"></div>
+
+                <button class="btn">forgot username</button>
+                <button class="btn" id="btntwo">forgot password</button>
+        
+        <button class="sub">submit</button>
+        </div>
+    </div>
+    
+</body>
+</html>

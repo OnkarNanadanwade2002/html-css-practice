@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hover effects</title>
+    <meta name="viewport" content="wid=device-widt,initial-scale=1.0">
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        html,body
+        {
+            display: grid;
+            height: 100%;
+            place-items: center;
+            background: black;
+        }
+        .center
+        {
+            display: flex;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+        }
+        .outer
+        {
+            position: relative;
+            margin: 0 50px;
+            background: linear-gradient(#14ffe9, #ffeb3d, #ff00e0);
+    
+        }
+        .butten
+        {
+            height: 70px;
+            width: 220px;
+            border-radius: 50px;
+        }
+        .circle
+        {
+            height: 200px;
+            width: 220px;
+            border-radius: 50%;
+        }
+        .outer butten, .outer span
+        {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform:translate(-50%,-50%) ;
+        }
+    </style>
+</head>
+<body>
+    <div class="center">
+        <div class="outer butten">
+            <button>
+                hover me
+            </button>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="outer circle">
+            <button>
+                hover me second
+            </button>
+            <span></span>
+            <span></span>
+        </div>
+
+    </div>
+    
+</body>
+</html>

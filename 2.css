@@ -1,0 +1,55 @@
+body{
+    margin: 20px;
+    padding: 200;
+    border-radius: 10px;
+    border-color: black;
+    background-color: chartreuse;
+    background-size: contain;
+
+}
+.doc
+{
+    width: 300px;
+    padding: 30;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0,0,0,0,4);
+    text-align: left;
+
+}
+
+.doc  h1
+{
+    color: rgb(12, 2, 2);
+    text-transform: uppercase;
+    border-color: blueviolet;
+    border: 10px;
+   
+}
+
+.doc input[text="text"],.box input[type="password"]
+{
+    border: 10px;
+    background: black;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid rgb(17, 17, 17);
+    padding: 14px 10px;
+    width: 220px;
+    outline: blue;
+    color: rgb(240, 13, 13);
+    border-radius: 20px;
+    transition: 0.25px;
+
+
+}
+.doc input[type="text"]:focus,.box input[type="password"]:focus
+
+{
+    width: 270px;
+    border-color: yellow;
+
+}

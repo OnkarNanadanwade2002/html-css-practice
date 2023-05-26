@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gloeing border</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            font-family: 'poppins',sans-serif;
+            box-sizing: border-box;
+        }
+        body
+        {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #100940;
+        }
+        .main
+        {
+            position: relative;
+            background-color: #100940;
+            width: 320px;
+            height: 420px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .main::before
+        {
+            position: absolute;
+            content: '';
+            background:linear-gradient(orange,red,blue,brown,rgb(231, 214, 214));
+            top: -5px;
+            left: -5px;
+            right: -5px;
+            bottom: -5px;
+            z-index: -1;
+            
+
+        }
+        .main::after
+        {
+            position: absolute;
+            content: '';
+            background:linear-gradient(orange,red,blue,rgb(243, 231, 231),rgb(143, 32, 32));
+            top: -5px;
+            left: -5px;
+            right: -5px;
+            bottom: -5px;
+            z-index: -1;
+            filter: blur(20px);
+
+        }
+        .content
+        {
+            color: orangered;
+            text-align: center;
+        }
+        #para
+        {
+            background: liner-gradiant(brown,yellow,red,);
+        }
+        h1{
+            text-transform: uppercase;
+            color: antiquewhite;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+        }
+        h1::after{
+            text-transform: uppercase;
+            content: "omkar";
+            color:linear-grideant rgb(187, 91, 91,orange,white,red);
+            position: absolute;
+            top: -3;
+            left: -3;
+            z-index: -1;
+            filter: blur(30px);
+
+        }
+        .main
+        {
+            position: relative;
+            background-color: #100940;
+            width: 320px;
+            height: 420px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        /* .maincont
+        {
+            position: relative;
+            top: 120%;
+            left: 35%;
+            height: 5cm;
+            width: 8cm;
+            border: 2px solid orange;
+            text-align: center;
+            word-wrap:normal;
+            border-radius: 50%;
+        } */
+        /* .maincont::before
+        {
+            position: absolute;
+            content: '';
+            background:linear-gradient(red,yellow,white,green,blue,black,);
+            top: -3;
+            bottom: -3;
+            left: -3;
+            z-index: -3;
+            /* filter: blur(55px); */
+
+        }*/
+        /* .maincont::after
+        {
+            position: absolute;
+            content: '';
+            background:linear-gradient(red,yellow,white,green,blue,black,);
+            top: -3;
+            bottom: -3;
+            left: -3;
+            z-index: -3;
+            filter: blur(55px);
+        } */
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="content">
+            <h1>omkar</h1>
+            <p id="para">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+                 autem aspernatur esse in ipsa recusandae commodi iure rem laborum placeat!
+            </p>
+        </div>
+    </div>
+
+    <!-- <div class="maincont">
+        <div class="sub">
+            <h1>vinu</h1>
+            <p id="paratwo">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                Magni iure dicta, ducimus labore non architecto magnam,
+                 quis nobis consequatur voluptate eveniet et ipsum esse libero nihil, sed tempora aliquam ullam!
+            </p>
+        </div>
+    </div> -->
+</body>
+</html>

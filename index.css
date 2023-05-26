@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(243, 72, 72);
+    border: solid black;
+    width: 200px;
+    padding: 20px;
+    margin: 150px;
+    text-align: left;
+    left: 50%;
+    top: 100%;
+}
+
+.collage
+{
+    width: 200px;
+    color: white;
+    border: solid black;
+    background-color: rgb(55, 233, 64);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    
+}
+.family
+{
+    width: 200px;
+    color: chartreuse;
+    background-color: rgb(74, 161, 211);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius:20px;
+    border-color: black;
+
+}
+.village
+{
+    width: 200px;
+    color: chartreuse;
+    background-color: rgb(74, 161, 211);
+    font-family: Arial, Helvetica, sans-serif;   
+     border-radius:20px;
+    border-color: black;
+
+    /*
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(129, 224, 212);
+    border-radius: 18px;
+    border-color: black;
+    background-color: rgb(118, 118, 219);
+   margin: 10%;
+    padding: 14%;
+    */
+}
+h1,h2,h3{
+    text-align: center;
+    color: bisque;
+    background-color: rgb(75, 38, 38);
+    width: 200px;
+    border-radius: 20px;
+
+    
+}
+/*
+h3{
+    padding-top: 20%;
+    text-align: left;
+    color: beige;
+    width: 150px;
+    border-radius: 20px;
+    background-color: rgb(12, 207, 28);
+}
+*/
+.collage input
+{
+    border: 2px solid yellow;
+    background-color: black;
+    color: bisque;
+    border-radius: 14px;
+    padding: 3px ;
+    width: 129px;
+
+}
+.village input
+{
+    width: auto;
+    color: yellow;
+    background-color: rgb(11, 70, 85);
+    border: solid black 5px;
+    border-color: black;
+    border-radius: 10px;
+}

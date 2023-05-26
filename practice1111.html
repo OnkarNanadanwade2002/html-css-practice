@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            background-color: rgb(71, 48, 48);
+            color: aqua;
+        }
+        h1{
+            text-align: center;
+            text-transform: uppercase;
+            color: yellow;
+            font-weight: 200;
+            text-shadow: 50px pink;
+            height: auto;
+            width: auto;
+            border-bottom: 4px white;
+        }
+        .form{
+                text-transform: uppercase;
+                color: rgb(106, 129, 59);
+                text-align: center;
+                border: 4px solid whitesmoke;
+                padding-left: 4px;
+        }
+        .title
+        {
+            color: rgb(178, 201, 132);
+            text-align: left;
+        }
+        input
+        {
+            margin-left: 50px;
+            height: 20px;
+            width: 200px;
+        }
+        .btn
+        {
+            text-transform: uppercase;
+            height: 30px;
+            padding: 2px;
+            margin: 5px;
+
+        }
+        .btn:hover
+        {
+            background-color: pink;
+            color: black;
+            background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4,rgb(92, 67, 67));
+
+            animation: glow 10s linear infinite;
+        }
+        .subbtn:first-child:hover
+        {
+            background: linear-gradient(90deg, #fa7199, #f5ce62, #e43603, #fa7199);
+                background-size: 400%;
+        }
+        input
+        {
+            text-transform: uppercase;
+            color: #e43603;
+            border: none;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="form">
+    <h1>agniveer forms</h1>
+    <div class="title">name :</div> <input type="text" placeholder="enter name" required>
+    <div class="title">address :</div> <input type="text" placeholder="enter address">
+    <div class="title">mob number :</div> <input type="number" placeholder="enter mobile no" required>
+    <div class="title">date of birth :</div> <input type="date" placeholder="enter date of birth" required>
+    <div class="title">gender:</div> <input type="radio" name="male" id=""> <div class="title"> male:</div>
+                                     <input type="radio" name="male" id=""> <div class="title">female:</div>
+    <input type="button" value="clear" class="btn">      <input type="button" value="submit" class="subbtn">
+</div>
+</body>
+</html>

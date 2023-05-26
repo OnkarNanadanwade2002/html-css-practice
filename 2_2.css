@@ -1,0 +1,205 @@
+
+        *
+        {
+            margin-left: 5px;
+            padding: 0px;
+        }
+        body
+        {
+            text-transform: uppercase;
+        }
+        h1{
+            color: yellow;
+            text-shadow: 2px 2px 4px blueviolet;
+            text-align: center;
+            height: 40px;
+            width: 200px;
+            text-align: center;
+            margin-left: 46%;
+            border: 3px solid red;
+            background-color: rgb(150, 53, 53);
+            border-radius: 20px;
+            
+        }
+        .nav
+        {
+            height:40px ;
+            width: 100vw;
+            background-color: rgb(121, 121, 216);
+            border: 3px solid orchid;
+            text-align: center;
+            color: aliceblue;
+            
+        }
+        .links a
+        {
+            color: aliceblue;
+            text-decoration: none;
+            height: 30px;
+            border: 2px solid black;
+            width: 10%;
+            float: inline-start;
+            margin: 0px;
+            margin-top: 3px;
+            text-align: center;
+            margin-left:40px ;
+            align-items: center;
+            font-style: italic;
+            font-weight: bold;
+            box-shadow: 2px 2px 4px red;
+            z-index: -1;
+        }
+        .links input
+        {
+            text-transform: uppercase;
+            background: none;
+            border: 2px solid red;
+            text-align: center;
+            margin-top: 5px;
+            height: 20px;
+            width: 130px;
+            border-radius: 20px;
+            box-shadow: 4px 4px 4px yellow;
+            font-weight: bold;
+            font-style: oblique;
+        }
+        .form
+        {
+            height: 400px;
+            width: 270px;
+            /* margin: 20px; */
+            padding: 10px;
+            border: 3px solid gold;
+            text-align: center;
+            margin-top: 12px;
+        }
+        .form h3
+        {
+            color: rgb(22, 245, 89);
+            font-family: sans-serif;
+            font-weight: bold;
+            font-style: italic;
+           
+        }
+        #headinform
+        {
+            height: 20px;
+            border: 2px soild rgb(11, 240, 60);
+            width: auto;
+            background-color: black;
+            text-shadow: 2px 2px 2px rgb(30, 7, 243);
+        }
+        .form input
+        {
+            text-transform: uppercase;
+            text-align: center;
+            color: black;
+            font-weight: bold;
+            font-style: oblique;
+            font-family: 'Segoe UI', Tahoma;
+            margin: 2px;
+            width: 200px;
+            border: 3px solid rgb(36, 26, 26);
+            border-radius: 20px;
+            color: rgb(34, 5, 5);
+        }
+        h5
+        {
+            color: rgb(31, 31, 26);
+            font-family: 'Segoe UI', Tahoma;
+            margin-top: -20px;
+            margin-bottom: 5px;
+            padding-left: 35%;
+        }
+        .btns
+        {
+            margin-top: 20px;
+            height: 60px;
+            width: auto;
+            border: 2px solid red;
+            margin-left: 0px;
+            background-color: black;
+        }
+        .btns input
+        {
+            color: yellowgreen;
+            background: none;
+            border: 2px solid orange;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+       
+        .links input:hover
+        {
+            cursor: pointer;
+            background: wheat;
+        }
+       .inputs input:hover
+       {
+        cursor:pointer;
+        background: rgb(240, 240, 107);
+       }
+       .twobtns:hover
+        {
+            background: rgb(117, 68, 150);
+            box-shadow: 3px 3px  4px yellow;
+            text-shadow: 2px 2px 3px black;
+            border: 2px solid black;
+            border-top: 2px red;
+        }
+        .para
+        {
+            border: 2px solid black;
+            width: 300px;
+            margin: 10px;
+            background: goldenrod;
+            color: wheat;
+            text-align: center;
+            position: absolute;
+            top:22%;
+            left: 72%;
+            height: 420px;
+            font-weight: bold;
+        }
+        #info
+        {
+            margin: 2px;
+            text-align: center;
+            color: black;
+            text-shadow: 2px 2px 8px rgb(57, 13, 175);
+            height: 20px;
+            border: 2px solid black;
+            background: rgb(230, 230, 187);
+            cursor: pointer;
+        }
+        .fullcont
+        {
+            position: absolute;
+            top: 100%;
+        }
+        .second
+        {
+            position: relative;
+            top: 10%;
+            border: 2px solid black;
+            padding: 4px;
+        }
+        .aboutus
+        {
+            width: 300px;
+            text-align: center;
+            align-items: center;
+            margin-left: 48%;
+        }
+        #secondinfo{
+            color: yellow;
+            height: 20px;
+            border: 2px solid black;
+            width: 200px;
+            background: rgb(206, 173, 236);
+        }
+        .photos
+        {
+            image-resolution: ;
+        }
+    

@@ -1,0 +1,17 @@
+
+.cantone ul li
+{
+display: inline-block;
+justify-content: space-between;
+list-style: none;
+  padding: 20px 120px;
+/* margin: 32px; */ 
+color: yellow;
+flex-direction: column;
+font-size: x-large;
+color: white;
+background-color: rgb(65, 13, 13);
+text-size-adjust: 100px;
+border: solid rgb(37, 37, 34) 3px;
+
+}

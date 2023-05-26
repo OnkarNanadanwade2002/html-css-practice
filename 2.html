@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *
+        {
+            margin-left: 5px;
+            padding: 0px;
+        }
+        body
+        {
+            text-transform: uppercase;
+        }
+        h1{
+            color: yellow;
+            text-shadow: 2px 2px 4px blueviolet;
+            text-align: center;
+            height: 40px;
+            width: 200px;
+            text-align: center;
+            margin-left: 46%;
+            border: 3px solid red;
+            background-color: rgb(150, 53, 53);
+            border-radius: 20px;
+            
+        }
+        .nav
+        {
+            height:40px ;
+            width: 100vw;
+            background-color: rgb(121, 121, 216);
+            border: 3px solid orchid;
+            text-align: center;
+            color: aliceblue;
+            
+        }
+        .links a
+        {
+            color: aliceblue;
+            text-decoration: none;
+            height: 30px;
+            border: 2px solid black;
+            width: 10%;
+            float: inline-start;
+            margin: 0px;
+            margin-top: 3px;
+            text-align: center;
+            margin-left:40px ;
+            align-items: center;
+            font-style: italic;
+            font-weight: bold;
+            box-shadow: 2px 2px 4px red;
+            z-index: -1;
+        }
+        .links input
+        {
+            text-transform: uppercase;
+            background: none;
+            border: 2px solid red;
+            text-align: center;
+            margin-top: 5px;
+            height: 20px;
+            width: 130px;
+            border-radius: 20px;
+            box-shadow: 4px 4px 4px yellow;
+            font-weight: bold;
+            font-style: oblique;
+        }
+        .form
+        {
+            height: 400px;
+            width: 270px;
+            /* margin: 20px; */
+            padding: 10px;
+            border: 3px solid gold;
+            text-align: center;
+            margin-top: 12px;
+        }
+        .form h3
+        {
+            color: rgb(22, 245, 89);
+            font-family: sans-serif;
+            font-weight: bold;
+            font-style: italic;
+           
+        }
+        #headinform
+        {
+            height: 20px;
+            border: 2px soild rgb(11, 240, 60);
+            width: auto;
+            background-color: black;
+            text-shadow: 2px 2px 2px rgb(30, 7, 243);
+        }
+        .form input
+        {
+            text-transform: uppercase;
+            text-align: center;
+            color: black;
+            font-weight: bold;
+            font-style: oblique;
+            font-family: 'Segoe UI', Tahoma;
+            margin: 2px;
+            width: 200px;
+            border: 3px solid rgb(36, 26, 26);
+            border-radius: 20px;
+            color: rgb(34, 5, 5);
+        }
+        h5
+        {
+            color: rgb(31, 31, 26);
+            font-family: 'Segoe UI', Tahoma;
+            margin-top: -20px;
+            margin-bottom: 5px;
+            padding-left: 35%;
+        }
+        .btns
+        {
+            margin-top: 20px;
+            height: 60px;
+            width: auto;
+            border: 2px solid red;
+            margin-left: 0px;
+            background-color: black;
+        }
+        .btns input
+        {
+            color: yellowgreen;
+            background: none;
+            border: 2px solid orange;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+       
+        .links input:hover
+        {
+            cursor: pointer;
+            background: wheat;
+        }
+       .inputs input:hover
+       {
+        cursor:pointer;
+        background: rgb(240, 240, 107);
+       }
+       .twobtns:hover
+        {
+            background: rgb(117, 68, 150);
+            box-shadow: 3px 3px  4px yellow;
+            text-shadow: 2px 2px 3px black;
+            border: 2px solid black;
+            border-top: 2px red;
+        }
+        .para
+        {
+            border: 2px solid black;
+            width: 300px;
+            margin: 10px;
+            background: goldenrod;
+            color: wheat;
+            text-align: center;
+            position: absolute;
+            top:22%;
+            left: 72%;
+            height: 420px;
+            font-weight: bold;
+        }
+        #info
+        {
+            margin: 2px;
+            text-align: center;
+            color: black;
+            text-shadow: 2px 2px 8px rgb(57, 13, 175);
+            height: 20px;
+            border: 2px solid black;
+            background: rgb(230, 230, 187);
+            cursor: pointer;
+        }
+        .fullcont
+        {
+            position: absolute;
+            top: 100%;
+        }
+        .second
+        {
+            position: relative;
+            top: 10%;
+            border: 2px solid black;
+            padding: 4px;
+        }
+        .aboutus
+        {
+            width: 300px;
+            text-align: center;
+            align-items: center;
+            margin-left: 48%;
+        }
+        #secondinfo{
+            color: yellow;
+            height: 20px;
+            border: 2px solid black;
+            width: 200px;
+            background: rgb(206, 173, 236);
+        }
+        .photos
+        {
+            image-resolution: ;
+        }
+    </style>
+</head>
+<body>
+    <h1>wel-come</h1>
+    <div class="nav">
+        <div class="links">
+            <a href="home">home</a>
+            <a href="home">about</a>
+            <a href="home">links</a>
+            <a href="home">contact</a>
+            <a href="home">forms</a>
+            <a href="home">photos</a>
+
+            <input type="text" placeholder="search here">
+        </div>
+    </div>
+    <div class="form">
+        <h3 id="headinform">book here</h3>
+        <div class="inputs">
+            <input type="text" placeholder="first name"> 
+            <input type="text" placeholder="last name">
+            <input type="text" placeholder="partneer name">
+            <input type="text" placeholder="age">
+            <input type="email" placeholder="email">
+            <input type="number" placeholder="adhar No.">
+            <input type="radio" name="gender" id="male"> <h5>:male</h5> <input type="radio" name="gender" id="fmale"><h5>:fmale</h5>
+            <input type="file" placeholder="adhar card">
+
+            <div class="btns">
+                <input type="reset" class="twobtns" value="clere" id="clere">
+                <input type="button" class="twobtns" value="submit" id="submit">
+            </div>
+        </div>
+    </div>
+    <div class="para">
+        <h3 id="info">information</h3>
+        <p class="textinpara">Lorem ipsum dolor sit amet consectetur, 
+            adipisicing elit. Sapiente mollitia autem 
+            eius voluptatibus. Magni hic fuga doloremque 
+            animi, est magnam distinctio quibusdam fugiat 
+            sed dolores
+             ipsum laboriosam amet excepturi quo.
+            Lorem ipsum dolor sit amet consectetur adipisicing 
+            elit. Veritatis ullam doloremque optio inventore 
+            accusantium. Deleniti quae laboriosam nam explicabo 
+            accusantium ipsam facilis enim provident recusandae
+             cumque repellat pariatur, quisquam, id commodi harum
+             uam. Fugit 
+            exercitationem tempore ullam mollitia rem!</p>
+    </div>
+    <div class="fullcont">
+        <h3 id="secondinfo" class="aboutus">about us</h3>
+        <p class="second">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate porro sunt consequatur dolores unde illo temporibus laboriosam maxime labore earum rem omnis deserunt incidunt veritatis illum saepe nihil, non dolor possimus blanditiis consequuntur quisquam quis? Maiores, fugiat dolores! Fugiat, quasi.</p>
+    </div>
+    <div class="photos">
+        <h4>photos</h4>
+        <img src="img/coffee3.jpg" alt="">
+        <img src="img/fastfood.jpg" alt="">
+        <img src="img/coffee2.jpg" alt="">
+        <img src="img/fastfood2.jpg" alt="">
+        <img src="img/sports2.jpg" alt="">
+        <img src="img/nature3.jpg" alt="">
+    </div>
+</body>
+</html>

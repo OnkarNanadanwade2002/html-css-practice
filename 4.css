@@ -1,0 +1,27 @@
+body
+        {
+            background-color: coral;
+            margin: 200px;
+            padding: 10px;
+            text-align: center;
+
+        }
+
+.div input [type="text"]
+{
+    text-transform: uppercase;
+    border: 2px solid black;
+    color: yellowgreen;
+    text-size-adjust: 12;
+    border-radius: 20px;
+    text-align: center;
+
+}
+.div h1
+{
+    text-transform: uppercase;
+    text-decoration-style: double;
+    color: chartreuse;
+    border: 20px;
+    border-color: solid black;
+}

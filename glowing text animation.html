@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>glowing text</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        body
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: #07252d;
+        }
+        h1{
+            position: relative;
+            font-size: 6rem;
+            letter-spacing: 15px;
+            color: #0e3740;
+            text-transform: uppercase;
+            text-align: center;
+            width: 100%;
+         -webkit-box-reflect: below 1px linear-gradient(transperent,#0008);
+         line-height: 0.70em;
+         outline: none;
+         animation: animate 5s ease infinite;
+        }
+        @keyframes animate
+        {
+            0%,18%,20%,50.1%,60%,65%,80%,90.1%,92%
+            {
+                color: #517070;
+                box-shadow: none;
+            }
+            18.1%,20.1%,50.1%,60%,65%,80.1%,90%,92.1%,100%
+            {
+                color: rgba(105, 26, 26, 0.533);
+                /* text-shadow: 4px 4px 5px #03bcf4,
+                4px 4px 7px #03bcf4,
+                4px 4px 9px #03bcf4,
+                4px 4px 11px #03bcf4
+                4px 4px 11px #03bcf4; */
+                text-shadow: 4px 4px 5px rgb(169, 161, 145);
+                /* box-shadow: 3px 3px -4px white; */
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1 contenteditable="true">animation</h1>
+    
+</body>
+</html>

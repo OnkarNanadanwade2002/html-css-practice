@@ -1,0 +1,82 @@
+/* body
+{
+    margin: 20px;
+    padding: 20px;
+    font-family: sans-serif;
+    background: url(back.jpg);
+    background-size: cover;
+    background-color: rgb(241, 40, 40);
+
+}
+
+.box
+{
+    width: 300px;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0,0,0,0,4);
+    text-align: left;
+
+}
+
+.box h1
+{
+    color: rgb(12, 2, 2);
+    text-transform: uppercase;
+    font-weight: 1000;
+    border-radius: 10px ;
+    border-color: black;
+}
+
+.box input[text="text"],.box input[type="password"]
+{
+    border: 0;
+    background: yellowgreen;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid rgb(17, 17, 17);
+    padding: 14px 10px;
+    width: 220px;
+    outline: blue;
+    color: rgb(240, 13, 13);
+    border-radius: 20px;
+    transition: 0.25px;
+
+}
+
+
+.box input[type="text"]:focus,.box input[type="password"]:focus
+
+{
+    width: 270px;
+    border-color: yellow;
+
+}
+.box input[type ="submit"]
+{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px , solid blueviolet;
+    padding: 14px ,10px;
+    width: 220px;
+    outline: none;
+    color: none;
+    color: white;
+    border-radius: 24px;
+    cursor: pointer;
+
+}
+
+.box input[type="submit"]:hover
+{
+    border: 20px;
+    border-color:yello;
+    background-color: black;
+} */

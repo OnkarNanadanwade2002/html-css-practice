@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    
+    <style>
+        
+        *
+        {
+            margin: 0px;
+            padding: 0px;
+        }
+        body
+        {
+            background-image: url(img/coffee2.jpg);
+            background-repeat:no-repeat ;
+            background-position: center;
+            background-size: cover;
+            height: 100vh;
+            width: 100vw;
+         }
+         h1{
+             color: rgb(89, 189, 59);
+             text-transform: uppercase;
+             font-size: 50px;
+             display: inline;
+             border-left:4px solid rgb(214, 157, 157) ;
+             border-bottom: 4px solid rgb(214, 157, 157);
+
+         }
+         .container
+         {
+             position: relative;
+             top: 15%;
+             left: 20%;
+             border-right:2px solid rgb(250, 246, 246) ;
+         }
+         .box input
+         {
+             display: inline;
+             background: none;
+             color: white;
+             text-transform: uppercase;
+             border: none;
+             padding: 20px;
+             border-bottom: 2px solid red;
+
+         }
+         .btn
+         {
+             margin: 20px;
+             padding: 10px;
+             background: none;
+             color: yellow;
+             text-transform: uppercase;
+             font-size: 20px;
+             border: 2px solid white;
+         }
+       
+         .nav a{
+             color: wheat;
+             text-transform: uppercase;
+             display: flex;
+             float: left;
+            padding-left: 20px;
+             font-style: normal;
+         }
+         
+         .navbar
+         {
+             margin: 50px;
+             padding: 10px;
+         }
+
+    </style>
+</head>
+<body>
+    <div class="navbar">
+
+        <nav class="nav">
+            <a href="home" class="links">home</a>
+            <a href="home" class="links">about</a>
+            <a href="home" class="links">contact</a>
+            <a href="home" class="links">phots</a>
+        </nav>
+
+    </div>
+
+    
+    <div class="container">
+        <h1>sing in</h1>
+
+        <div class="box">
+            <input type="text" placeholder="name">
+        </div>
+
+        <div class="box">
+            <input type="number" placeholder="date of birth">
+        </div>
+
+        <div class="box">
+            <input type="email" placeholder="enter the email" >
+        </div>
+
+        <div class="box">
+            <input type="password" placeholder="enter the password">
+        </div>
+
+        <div class="box">
+            <input type="file" placeholder="uploud the file">
+        </div>
+        
+        <button class="btn">submit</button>
+
+    </div>
+    
+</body>
+</html>

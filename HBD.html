@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  
+</head>
+<style>
+    .birthday-card {
+font-size: 24px;
+text-align: center;
+padding: 50px;
+background-color: #FFC107;
+}
+
+.cake-container {
+display: flex;
+justify-content: center;
+}
+
+.cake {
+position: relative;
+width: 200px;
+height: 250px;
+background-color: #D2691E;
+border-radius: 0 0 15px 15px;
+}
+
+.candle {
+position: absolute;
+top: -30px;
+width: 20px;
+height: 30px;
+background-color: #FFFFFF;
+border-radius: 50%;
+}
+
+.flame {
+position: absolute;
+top: -60px;
+width: 5px;
+height: 40px;
+background-color: #FFD700;
+border-radius: 50% 50% 0 0;
+animation: flicker 0.5s alternate infinite;
+}
+
+@keyframes flicker {
+from {opacity: 1;}
+to {opacity: 0.7;}
+}
+
+</style>
+<body>
+    <div class="birthday-card">
+        <h1>Happy Birthday!</h1>
+        <div class="cake-container">
+          <div class="cake">
+            <div class="candle"></div>
+            <div class="candle"></div>
+            <div class="candle"></div>
+            <div class="candle"></div>
+            <div class="candle"></div>
+            <div class="flame"></div>
+            <div class="flame"></div>
+            <div class="flame"></div>
+            <div class="flame"></div>
+            <div class="flame"></div>
+          </div>
+        </div>
+      </div>
+      
+</body>
+</html>

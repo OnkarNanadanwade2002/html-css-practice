@@ -1,0 +1,106 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(105, 91, 91, 0);
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(75, 69, 69);
+}
+h1{
+    color: rgb(44, 211, 52);
+    text-align: center;
+    margin-left: 10px;
+    text-transform: uppercase;
+    font-weight: 60px;
+    width: 27cm;
+    border-bottom: 2px solid wheat;
+}
+.container
+{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+     'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: beige;
+    height: 7cm;
+    width: 50%;
+    border: 2px solid black;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: rgb(168, 101, 231);
+    /* padding-top: 10px; */
+
+    }
+    .paraheding
+    {
+        padding-top: 0px;
+        color: rgb(56, 52, 49);
+        border-bottom: 2px solid black;
+        background-color: orangered;
+    }
+    .paraone
+    {
+        padding-top: 10px;
+        text-align: left;
+    }
+    .logina 
+    {
+        color: wheat;
+        font-style: normal;
+        text-shadow: 2px;
+        text-transform: uppercase;
+        position: absolute;
+        top: 10%;
+        left: 78%;
+        padding: 2px;
+        text-align: center;
+        height: 0.8cm;
+        width: 1.8cm;
+        border: 2px solid black;
+        background-color: rgb(223, 181, 99);
+    }
+    .signin
+    {
+        position: absolute;
+        top: 10%;
+        left: 85%;
+        color: rgb(39, 37, 32);
+        font-style: normal;
+        text-shadow: 2px;
+        text-transform: uppercase;
+        padding: 2px;
+        text-align: center;
+        height: 0.8cm;
+        width: 1.8cm;
+        border: 2px solid black;
+        background-color: palevioletred;
+    }
+    a:hover
+    {
+        color: rgb(194, 19, 19);
+        border: 2px solid white;
+        border-radius: 50%;
+    }
+    .containerone
+    {
+        position: absolute;
+    }
+    h3{
+        /* color: yellowgreen;
+        background-color: blue; */
+    }
+    .paratwo
+    {
+        position: absolute;
+        top: 20%;
+        left: 60%;
+        background-color: #fff;
+        height: 6cm;
+        width: 10cm;
+        border: 2px solid black ;
+        padding: 4px;
+        text-align: center;
+    }
+
